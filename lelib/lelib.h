@@ -14,6 +14,8 @@
     #endif
 #endif
 
+#define LE_DEBUG_LOGS 0
+
 #if LE_DEBUG_LOGS
 #define LE_DEBUG(...)         NSLog(__VA_ARGS__)
 #else
